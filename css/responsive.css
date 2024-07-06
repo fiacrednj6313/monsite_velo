@@ -1,0 +1,118 @@
+/* Responsive */
+@media screen and (max-width : 926px) {
+    .content 
+    {
+        padding:  50px;
+    }
+
+    .topbar
+    {
+        padding-top: 10px;
+    }
+    .b
+    {
+        flex: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .burger 
+    {
+        display: block;
+    }
+
+    .topbar ul
+    {
+        display: none;
+       
+    }
+
+    .topbar .menu-mobile
+    {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        background-color: var(--color-green);
+        position: absolute;
+        top: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .topbar ul li
+    {
+        width: 100%;
+    }
+
+    /* ********************************* */
+    .box-velo1
+    {
+        display: block;
+    } 
+    .box-velo1 .img-velo1
+    {
+        width: 100%;
+    }
+
+    .box-velo2
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    
+    .box-velo2 .img-velo2
+    {
+        width: 100%;
+    }
+
+    .box-velo2 .desc-velo2
+    {
+        margin-top: -100px;
+    }
+
+    .box-velo1 .desc-velo1 h2, .box-velo2 .desc-velo2 h2
+    {
+        font-size: 40px;
+    }
+    .box-header .search
+    {
+        top: 50%;
+        left: 50%;
+    }
+
+    .box-header .search input
+    {
+        display: none;
+    }
+
+    /* ******************************* */
+    form 
+    {
+        width: 100%;
+    }
+
+    .d-flex > div
+    {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width : 613px) {
+     
+    .logo > a
+    {
+        padding-left: 10px;
+    }
+    .box-header .search p, .box-header .search span
+    {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width : 413px) {
+     
+    .logo > a
+    {
+        font-size: 25px;
+    }
+}
